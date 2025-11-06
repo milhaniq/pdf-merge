@@ -1,26 +1,40 @@
-# 🧩 PDF Merger (Client-Side)
+# 📄 PDF Merger
 
-A browser-based PDF merger that lets you **preview, rotate, reorder, and combine PDFs** — all locally, with **no uploads** or server involved.
+A simple, browser-based **PDF Merger** tool built with **HTML, Tailwind CSS, and JavaScript** using the [PDF-Lib](https://github.com/Hopding/pdf-lib) library.
 
----
-
-### ✨ Features
-- 📄 Merge multiple PDFs
-- 🔄 Rotate individual files before merging
-- 👁️ Preview first page of each file
-- 🧱 Drag-and-drop reorder (SortableJS)
-- 🌙 Light/Dark mode toggle (saved to localStorage)
-- ⚡ 100% client-side — your PDFs never leave your browser
+This tool allows you to **combine multiple PDF files into one** — all directly in your browser.  
+⚡ No uploads, no servers, no privacy risks.
 
 ---
 
-### 🧠 Tech Stack
-- [Tailwind CSS](https://tailwindcss.com/)
-- [PDF-lib](https://pdf-lib.js.org/)
-- [PDF.js](https://mozilla.github.io/pdf.js/)
+## 🚀 Features
+
+- 🖱️ **Drag and drop** PDF upload  
+- 📂 **Reorder** files easily using drag handles  
+- 🧩 **Merge multiple PDFs** into a single document  
+- 🧠 100% **client-side** – no files are uploaded to a server  
+- 💾 **Instant download** of the merged file  
+- 💅 Clean, responsive UI using **Tailwind CSS**
+
+---
+
+## 🧰 Technologies Used
+
+- [Tailwind CSS CDN](https://tailwindcss.com/)
+- [PDF-Lib](https://pdf-lib.js.org/)
 - [SortableJS](https://sortablejs.github.io/Sortable/)
 
 ---
 
-### ⚖️ License
-MIT — free to use, modify, and host.
+## 💡 How to Use
+
+1. **Open the app** in your browser (if hosted via GitHub Pages).  
+2. **Drag and drop** your PDF files into the upload box or click to browse.  
+3. **Reorder** the PDFs by dragging the handles on the left.  
+4. Click **“Merge PDFs”**.  
+5. When done, click **“Download Merged PDF”** to save your new file!
+
+> 💬 All processing happens inside your browser — your files never leave your device.
+
+  
+
